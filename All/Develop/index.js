@@ -59,6 +59,5 @@ function init() {
         writeReadMe("README.md", generateMarkdown(data))
     })}
 
-
 // Function call to initialize app
 init();
