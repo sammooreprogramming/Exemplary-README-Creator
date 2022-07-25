@@ -47,7 +47,7 @@ const inquirer = require("inquirer");
     name: "repository",
     message: "What is your Github repository link?"
     },
-]).then(console.log(answers))};
+])};
 
 // TODO: Create a function to write README file
 function writeReadMe(fileName, data) {
