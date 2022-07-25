@@ -28,13 +28,13 @@ ${data.description}
 
 # Installation
 
-To run the appllication the following dependencies are needed: ${data.installation}
+To run the application: ${data.installation}
 
 
 
 # Usage
 
-This application's use is: ${data.usage}
+This application is used thusly: ${data.usage}
 
 
 
