@@ -14,7 +14,42 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
+# Description
+
+${data.description}
+
+
+
+# Installation
+
+To run the appllication the following dependencies are needed: ${data.installation}
+
+
+
+# Usage
+
+This application's use is: ${data.usage}
+
+
+
+# Credits
+
+The following contributed to this assignment: ${data.credits}
+
+
+
+# License
+
+
+This application's license category is: ${data.license}
+
+
+
+# GitHub Information
+
+Here is the link to the GitHub page: ${data.github}
+
+#`;
 }
 
 module.exports = generateMarkdown;
