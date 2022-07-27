@@ -70,7 +70,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
     type: "checkbox",
     name: "license",
     message: "Which license(s) should your project have?",
-    choices: ["none", "MIT", "Mozilla", "Open", "ISC", "GNU", "Academic", "Apache"],
+    choices: ["MIT", "Mozilla", "ISC", "GNU", "Apache"],
     validate: nameInput => {
         if (nameInput) {
           return true;

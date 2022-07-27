@@ -20,10 +20,18 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Table of Contents
+  # Description(#description)
+  # Installation(#description)
+  # Usage(#usage)
+  # Credits(#credits)
+  # License(#license)
+  # Github Information(#github)
+
+
 # Description
 
 ${data.description}
-
 
 
 # Installation
@@ -31,11 +39,9 @@ ${data.description}
 To run the application: ${data.installation}
 
 
-
 # Usage
 
 This application is used thusly: ${data.usage}
-
 
 
 # Credits
@@ -43,12 +49,10 @@ This application is used thusly: ${data.usage}
 The following contributed to this assignment: ${data.credits}
 
 
-
 # License
 
 
 This application's license category is: ${data.license}
-
 
 
 # GitHub Information
