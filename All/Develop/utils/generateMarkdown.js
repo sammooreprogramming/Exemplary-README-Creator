@@ -1,7 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+let container = "";
+
 function renderLicenseBadge(license) {
- if (license === MIT)   if (license === MIT) {
+ if (license === MIT) {
   return '[![License: MIT](https://img.shields.io/badge/node-lightblue?logo=node&style=plastic)](https://opensource.org/licenses/MIT)';
  }
 
@@ -14,20 +16,20 @@ function renderLicenseBadge(license) {
  }
 
  else if (license === GNU) {
-  return '[![License: General Public License](https://img.shields.io/badge/GNU-red?logo=node&style=plastic)](https://opensource.org/licenses/GPL-3.0)';
+  return '[![License: General Public License](https://img.shields.io/badge/GNU-red?logo=node&style=plastic)](https://opensource.org/licenses/GPL-2.0)';
  }
  
  else if (license === Apache) {
   return '[![License: Apache 2.0](https://img.shields.io/badge/Apache%202.0-green?logo=node&style=plastic)](https://opensource.org/licenses/Apache-2.0)';
  }
 
- else return "";
+ else return container;
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === MIT)   if (license === MIT) {
+  if (license === MIT) {
     return '(https://opensource.org/licenses/MIT)';
    }
   
@@ -40,25 +42,29 @@ function renderLicenseLink(license) {
    }
   
    else if (license === GNU) {
-    return '(https://opensource.org/licenses/GPL-3.0)';
+    return '(https://opensource.org/licenses/GPL-2.0)';
    }
    
    else if (license === Apache) {
     return '(https://opensource.org/licenses/Apache-2.0)';
    }
   
-   else return "";
+   else return container;
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-
+if (license) {
+ return renderLicenseBadge(license) && renderLicenseLink(license);
+}
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+  ![${data.license}](https://img.shields.io/badge/license-${data.license}-red)
 
   ## Table of Contents
   # Description(#description)
