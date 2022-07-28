@@ -61,12 +61,11 @@ function generateMarkdown(data) {
 
 
   ## Table of Contents
-  # Description(#description)
-  # Installation(#description)
-  # Usage(#usage)
-  # Credits(#credits)
-  # License(#license)
-  # Github Information(#github)
+  - [Description](#description)
+  - [Installation](#description)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Github Information](#github)
 
 
 # Description
