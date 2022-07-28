@@ -9,8 +9,9 @@ let blank = "";
 
 //functions
 function renderLicenseBadge(license) {
+
  if (license === 'MIT') {
-  return `[![license: MIT](https://img.shields.io/badge/MIT-License-red.svg)](https://opensource.org/licenses/MIT)`
+  return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
  } 
 
  else if (license === 'Mozilla') {
@@ -18,41 +19,39 @@ function renderLicenseBadge(license) {
  } 
 
  else if (license === 'Apache') {
-  return `[![license: Apache 2.0](https://img.shields.io/badge/Apache%202.0-License-red.svg)](https://opensource.org/licenses/Apache-2.0)`
+  return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
  } 
 
  else if (license === 'GNU') {
-  return `[![license: GNU GPL](https://img.shields.io/badge/GNU%20GPL-License-red.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)`
+  return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
  } 
 
  else if (license === 'ISC') {
-  return `[![license: ISC](https://img.shields.io/badge/ISC-License-red.svg)](https://opensource.org/licenses/ISC)`
- }
-
-  else return blank;
+  return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`  
+ } else return blank;
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'MIT') {
-    return '[License: MIT](https://opensource.org/licenses/MIT)';
+    return `[License: MIT](https://opensource.org/licenses/MIT)`;
    }
    
    else if (license === 'Mozilla') {
-    return '[License: MIT](https://opensource.org/licenses/MPL-2.0)';
+    return `[License: Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)`;
    }
   
    else if (license === 'ISC') {
-    return '[License: MIT](https://opensource.org/licenses/ISC)';
+    return `[License: MIT](https://opensource.org/licenses/ISC)`;
    }
   
    else if (license === 'GNU') {
-    return '[License: MIT](https://opensource.org/licenses/GPL-2.0)';
+    return `[License: MIT](https://opensource.org/licenses/GPL-2.0)`;
    }
    
    else if (license === 'Apache 2.0') {
-    return '[License: MIT](https://opensource.org/licenses/Apache-2.0)';
+    return `[License: MIT](https://opensource.org/licenses/Apache-2.0)`;
    }
 
    else return blank;
