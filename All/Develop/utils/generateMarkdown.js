@@ -27,7 +27,27 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-
+  if (license === MIT)   if (license === MIT) {
+    return '(https://opensource.org/licenses/MIT)';
+   }
+  
+   else if (license === Mozilla) {
+    return '(https://opensource.org/licenses/MPL-2.0)';
+   }
+  
+   else if (license === ISC) {
+    return '(https://opensource.org/licenses/ISC)';
+   }
+  
+   else if (license === GNU) {
+    return '(https://opensource.org/licenses/GPL-3.0)';
+   }
+   
+   else if (license === Apache) {
+    return '(https://opensource.org/licenses/Apache-2.0)';
+   }
+  
+   else return "";
 }
 
 // TODO: Create a function that returns the license section of README
