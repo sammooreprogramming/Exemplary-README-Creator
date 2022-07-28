@@ -2,6 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+let file = "README.md";
 
 
 // TODO: Create an array of questions for user input
@@ -94,7 +95,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 ];
 
 // TODO: Create a function to write README file
-function writeReadMe(fileName, data) {
+function writeReadMe(file, data) {
     fs.writeFile("README.md", data, err => {
         if (err) {
             throw err;
@@ -104,7 +105,6 @@ function writeReadMe(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    let file = "README.md";
     inquirer.prompt(questions).then(function(data) {
         writeReadMe(file, generateMarkdown(data))
     })}
