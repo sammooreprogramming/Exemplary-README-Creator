@@ -100,12 +100,13 @@ function writeReadMe(fileName, data) {
             throw err;
         } else console.log("Your shiny new file has been created!")
     })
-}
+};
 
 // TODO: Create a function to initialize app
 function init() {
+    let file = "README.md";
     inquirer.prompt(questions).then(function(data) {
-        writeReadMe("README.md", generateMarkdown(data))
+        writeReadMe(file, generateMarkdown(data))
     })}
 
 // Function call to initialize app
