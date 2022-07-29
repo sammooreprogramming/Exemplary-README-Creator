@@ -101,7 +101,7 @@ This application's license category is: ${data.license}. If you have questions, 
 
 # Questions
 
-Here is the link to my GitHub page: ${data.github}, and you can reach me at ${data.email}.
+Here is the link to my GitHub page: ${data.questions}, and you can reach me for more information at ${data.email}.
 
 
 # Tests

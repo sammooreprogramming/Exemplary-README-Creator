@@ -1,4 +1,4 @@
-# A
+# l
 
  # Badge
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,29 +7,29 @@
   ## Table of Contents
   - [Description](#description)
   - [Installation](#description)
-  - [Credits](#credits)
+  - [Contributing](#contributing)
   - [License](#license)
-  - [Github Information](#github)
+  - [Questions](#questions)
   - [Tests](#tests)
 
 # Description
 
-a
+l
 
 
 # Installation
 
-To run the application: a
+To run the application: ll
 
 
 # Usage
 
-This application is used thusly: a
+This application is used thusly: l
 
 
-# Credits
+# Contributors
 
-The following contributed to this assignment: a
+The following contributed to this assignment: undefined
 
 
 # License
@@ -37,13 +37,13 @@ The following contributed to this assignment: a
 This application's license category is: MIT. If you have questions, please consult the documentation at [License: MIT](https://opensource.org/licenses/MIT).
 
 
-# GitHub Information
+# Questions
 
-Here is the link to the GitHub page: a.
+Here is the link to my GitHub page: l, and you can reach me for more information at l.
 
 
 # Tests
 
-To run tests use the following command: a.
+To run tests use the following command: l.
 
 #
