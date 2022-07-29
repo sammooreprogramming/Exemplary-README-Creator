@@ -53,10 +53,13 @@ function renderLicenseLink(license) {
 
 // // TODO: Create a function that returns the license section of README
 // // If there is no license, return an empty string
-// function renderLicenseSection(license) {
-  
+function renderLicenseSection(license) {
+//  if (license) {
+//   return `This application's license category is: ${data.license}. If you have questions, please consult the documentation at ${renderLicenseLink(data.license)}.`
+// } else {
+//   return "";
 // }
-
+}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
  return `# ${data.title}
@@ -92,8 +95,8 @@ This application is used thusly: ${data.usage}
 
 The following contributed to this assignment: ${data.credits}
 
+# License
 
-# License 
 This application's license category is: ${data.license}. If you have questions, please consult the documentation at ${renderLicenseLink(data.license)}.
 
 

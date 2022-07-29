@@ -29,10 +29,10 @@ This application is used thusly: a
 
 # Credits
 
-The following contributed to this assignment: aa
+The following contributed to this assignment: a
 
+# License
 
-# License 
 This application's license category is: MIT. If you have questions, please consult the documentation at [License: MIT](https://opensource.org/licenses/MIT).
 
 
