@@ -68,7 +68,7 @@ let readMeFile = "README.md";
         }}
     },
     {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message: "Which license(s) should your project have?",
     choices: ["MIT", "Mozilla", "ISC", "GNU", "Apache"],

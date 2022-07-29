@@ -1,7 +1,7 @@
 # a
 
- # Badge(s)
- 
+ # Badge
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
   ## Table of Contents
@@ -24,7 +24,7 @@ To run the application: a
 
 # Usage
 
-This application is used thusly: aa
+This application is used thusly: a
 
 
 # Credits
@@ -32,9 +32,8 @@ This application is used thusly: aa
 The following contributed to this assignment: a
 
 
-# Licenses
-
-This application's license category is: MIT. If you have questions, please consult the documentation at .
+# License 
+    This application's license category is: MIT. If you have questions, please consult the documentation at [License: MIT](https://opensource.org/licenses/MIT).
 
 
 # GitHub Information
