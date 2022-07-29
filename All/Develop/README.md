@@ -15,7 +15,7 @@
   
 # Description
 
-This Project was a look at the back end of coding. The assignment pushed us to better know javascript and also nodejs. This is a README.md file generator! Simply add your data into the template via a few sarter questins and viola, a shiny new READMtoE.md file!
+This Project was a look at the back end of coding. The assignment pushed us to better know javascript and also nodejs. This is a README.md file generator! Simply add your data into the template via a few starter questions and viola, a shiny new README.md file!
 
 
 # Installation
@@ -47,4 +47,6 @@ Here is the link to my GitHub page: https://github.com/sammooreprogramming, and 
 
 To run tests use the following command: npm test.
 
-#
+# Video
+
+https://www.youtube.com/watch?v=zmc1i5NOuDg
