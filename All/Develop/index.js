@@ -57,7 +57,7 @@ let readMeFile = "README.md";
     },
     {
     type: "input",
-    name: "credits",
+    name: "contributing",
     message: "List your collaborators, if any, with links to their GitHub profiles.",
     validate: nameInput => {
         if (nameInput) {
@@ -82,15 +82,39 @@ let readMeFile = "README.md";
     },
     {
     type: "input",
-    name: "github",
-    message: "What is your Github repository link?",
+    name: "questions",
+    message: "What is your GitHub username?",
     validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your project repository link on GitHub.');
+          console.log('Please enter your username on GitHub.');
           return false;
         }}
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email?",
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter a command to run tests.');
+             }
+        }
+    },
+    {
+    type: "input",
+    name: "tests",
+    message: "Which command will run tests?",
+    validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter a command to run tests.');
+         }
+    }
     },
 ];
 

@@ -1,7 +1,5 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-
-//functions
 function renderLicenseBadge(license) {
 
  if (license === 'MIT') {
@@ -71,10 +69,10 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Description](#description)
   - [Installation](#description)
-  - [Credits](#credits)
+  - [Contributing](#contributing)
   - [License](#license)
-  - [Github Information](#github)
-
+  - [Questions](#questions)
+  - [Tests](#tests)
 
 # Description
 
@@ -91,18 +89,24 @@ To run the application: ${data.installation}
 This application is used thusly: ${data.usage}
 
 
-# Credits
+# Contributors
 
 The following contributed to this assignment: ${data.credits}
+
 
 # License
 
 This application's license category is: ${data.license}. If you have questions, please consult the documentation at ${renderLicenseLink(data.license)}.
 
 
-# GitHub Information
+# Questions
 
-Here is the link to the GitHub page: ${data.github}
+Here is the link to my GitHub page: ${data.github}, and you can reach me at ${data.email}.
+
+
+# Tests
+
+To run tests use the following command: ${data.tests}.
 
 #`;
 }
