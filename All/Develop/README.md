@@ -29,11 +29,11 @@ This application is used thusly: a
 
 # Credits
 
-The following contributed to this assignment: a
+The following contributed to this assignment: aa
 
 
 # License 
-    This application's license category is: MIT. If you have questions, please consult the documentation at [License: MIT](https://opensource.org/licenses/MIT).
+This application's license category is: MIT. If you have questions, please consult the documentation at [License: MIT](https://opensource.org/licenses/MIT).
 
 
 # GitHub Information

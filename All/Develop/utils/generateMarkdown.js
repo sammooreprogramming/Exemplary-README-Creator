@@ -48,19 +48,14 @@ function renderLicenseLink(license) {
     return `[License: MIT](https://opensource.org/licenses/Apache-2.0)`;
    }
 
-   else return blank;
+   else return "";
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license === "None") {
-    return "";
-  } else {
-    return 
-  }
-}
-
+// // TODO: Create a function that returns the license section of README
+// // If there is no license, return an empty string
+// function renderLicenseSection(license) {
+  
+// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -99,7 +94,7 @@ The following contributed to this assignment: ${data.credits}
 
 
 # License 
-    This application's license category is: ${data.license}. If you have questions, please consult the documentation at ${renderLicenseLink(data.license)}.
+This application's license category is: ${data.license}. If you have questions, please consult the documentation at ${renderLicenseLink(data.license)}.
 
 
 # GitHub Information
