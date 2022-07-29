@@ -1,4 +1,4 @@
-# l
+# Exemplary README.md Creator
 
  # Badge
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -12,19 +12,20 @@
   - [Questions](#questions)
   - [Tests](#tests)
 
+  
 # Description
 
-l
+This Project was a look at the back end of coding. The assignment pushed us to better know javascript and also nodejs. This is a README.md file generator! Simply add your data into the template via a few sarter questins and viola, a shiny new READMtoE.md file!
 
 
 # Installation
 
-To run the application: ll
+To run the application: Install the dependencies node.js and inquirer using the npm install command.
 
 
 # Usage
 
-This application is used thusly: l
+This application is used thusly: This application is used by a command prompt that prompts the user to answer a series of questions to get a return of a README.md file.
 
 
 # Contributors
@@ -39,11 +40,11 @@ This application's license category is: MIT. If you have questions, please consu
 
 # Questions
 
-Here is the link to my GitHub page: l, and you can reach me for more information at l.
+Here is the link to my GitHub page: https://github.com/sammooreprogramming, and you can reach me for more information at sammooresemail23@gmail.com.
 
 
 # Tests
 
-To run tests use the following command: l.
+To run tests use the following command: npm test.
 
 #
